@@ -18,7 +18,7 @@ uvicorn==0.30.1
 python-multipart>=0.0.10
 starlette==1.2.1
 pydantic==2.13.4
-
+fpdf==1.7.2
 # ── Streamlit frontend ────────────────────────────────────────────────────────
 streamlit==1.58.0
 requests==2.32.3
