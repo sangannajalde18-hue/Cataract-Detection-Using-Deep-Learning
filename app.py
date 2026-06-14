@@ -17,6 +17,16 @@ from PIL import Image
 from dotenv import load_dotenv
 from supabase import create_client, Client
 from fpdf import FPDF
+from fpdf import FPDF
+
+# --- ADD THESE MISSING REPORTLAB IMPORTS ---
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.units import mm
+from reportlab.lib import colors
+from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
+from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
+from reportlab.lib.enums import TA_LEFT, TA_RIGHT, TA_CENTER
+from reportlab.platypus.flowables import HRFlowable
 
 # ── Supabase auth client ──────────────────────────────────────────────────────
 load_dotenv()
