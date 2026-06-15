@@ -36,4 +36,4 @@ python-dotenv==1.2.2
 # ── Database ──────────────────────────────────────────────────────────────────
 # Supabase replaces local SQLite
 supabase==2.15.2
-reportlab==3.0.0
+reportlab==4.1.0
