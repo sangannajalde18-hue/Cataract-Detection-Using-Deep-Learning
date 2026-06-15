@@ -1,0 +1,31 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ── Deep learning (CPU-only for cloud deployment) ─────────────────────────────
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+
+# ── FastAPI backend ───────────────────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn==0.30.1
+python-multipart==0.0.9
+pydantic==2.7.1
+
+# ── Streamlit frontend ────────────────────────────────────────────────────────
+streamlit==1.35.0
+requests==2.32.2
+
+# ── Image handling ────────────────────────────────────────────────────────────
+Pillow==10.4.0
+
+# ── Numerical & data ──────────────────────────────────────────────────────────
+numpy==1.26.4
+pandas==2.2.2
+
+# ── PDF generation ────────────────────────────────────────────────────────────
+fpdf2==2.7.9
+
+# ── Supabase (auth + database) ────────────────────────────────────────────────
+supabase==2.5.1
+
+# ── Environment variables ─────────────────────────────────────────────────────
+python-dotenv==1.0.1
