@@ -32,7 +32,7 @@ if not _SUPABASE_URL or not _SUPABASE_KEY:
 
 _supabase: Client = create_client(_SUPABASE_URL, _SUPABASE_KEY)
 
-BASE_URL = "https://eyeshield-api.onrender.com"
+BASE_URL = "https://cataract-detection-using-deep-learning.onrender.com/"
 
 st.set_page_config(
     page_title="EyeShield — Cataract Detection",
