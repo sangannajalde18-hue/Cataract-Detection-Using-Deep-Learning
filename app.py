@@ -987,7 +987,7 @@ with tab1:
 
         if uploaded_file:
             image = Image.open(uploaded_file).convert("RGB")
-            st.image(image,use_container_width=True)
+            st.image(image,use_column_width=True)
             st.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
 
             if st.button("Run Prediction →", use_container_width=True):
